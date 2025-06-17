@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Ignore large temporary files
+*.log
+
+# DO NOT ignore pretrained weights
+# (explicitly allow this if you had a broader ignore rule)
+!mnist_trained_weights.pkl
+
